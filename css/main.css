@@ -2,7 +2,6 @@
 font-family: 'Roboto Slab', serif; *****/
 
 body{
-    width:1400px;
     font-family: 'roboto', sans-serif;
 }
 
@@ -11,6 +10,7 @@ body{
 .full-width{
     width: 1400px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .half-width{
@@ -22,9 +22,8 @@ body{
 .third-width{
     width: 466.66px;
     float: left;
-    
-
 }
+
 
 header {
     height: 800px; 
@@ -42,42 +41,29 @@ header h1{
     font-size: 60px;
 }
 header p{
-    margin: 0 auto;
     text-align: center;
     color: #095256;
     font-size: 48px;
 }
 
-.rogue {
+
+/**** MY WORK/PORTFOLIO SECTION****/
+
+#portfolio img{
     padding-left: 100px;
 }
 
-.jubilee {
-    padding-left: 100px;
-}
-
-.recipe {
-    padding-left: 100px;
-}
-
-.headshot {
-    padding-left: 100px;
-}
-.portfolio h3{
+#portfolio h3{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
     font-size: 36px;
     color: #095256;
-    padding: 40px 0px 95px 0px;
     margin: 0 auto;
+    padding: 40px 0px 100px 0px;
 }
 
-footer{
-    clear:both;
-}
-
-.portfolio h4{
+#portfolio h4{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -85,24 +71,22 @@ footer{
     margin: 0 auto;
 }
 
-.portfolio p{
+#portfolio p{
     font-family: 'roboto', sans-serif;
     font-size: 24px;
     color: #095256;
     margin: 0 auto;
-    padding-top: 5px;
+    padding: 5px 0 5px 0;
 } 
 
-.details{
-    padding-top: 25px;
-}
 
-.about-me{
-    clear:both;
+/*****ABOUT ME SECTION****/
+
+#about-me{
     background-color: #087e8b;
     height: 650px;
 }
-.about-me h3{
+#about-me h3{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
@@ -112,7 +96,7 @@ footer{
     margin: 0 auto;
 }
 
-.about-me h4{
+#about-me h4{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -120,7 +104,7 @@ footer{
     margin: 0 auto;
 }
 
-.about-me p{
+#about-me p{
     font-family: 'roboto', sans-serif;
     font-size: 24px;
     color: #ffffff;
@@ -128,13 +112,19 @@ footer{
     padding-top: 5px;
 } 
 
-.contact{
+#about-me img{
+    padding-left: 100px;
+}
+
+/****CONTACT SECTION ****/
+
+#contact{
     background: #095156;
     height: 445px;
     margin: 0 auto;
 }
 
-.contact h3{
+#contact h3{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
@@ -144,7 +134,7 @@ footer{
     margin: 0 auto;
 }
 
-.contact h4{
+#contact h4{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -153,7 +143,7 @@ footer{
     text-align: center;
 }
 
-.contact p{
+#contact p{
     font-family: 'roboto', sans-serif;
     font-size: 24px;
     color: #ffffff;
@@ -173,19 +163,20 @@ h6{
     font-weight: bold;
 }
 
-.contact ul{
+#contact ul{
     list-style: none;
     padding-left: 100px;
 }
 
-.contact li{
+#contact li{
     display: inline-block;
 }
 
-.contact ul img{
+#contact ul img{
     padding-right: 50px;
 }
 
 footer {
-    padding-top: 100px; 
+    padding-top: 100px;
+    clear:both;
 }
